@@ -1,0 +1,761 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-17T16:18:29.247Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14078498200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "for-the-sub-models-of-account-activity;",
+        "after": [
+          {
+            "result": {
+              "duration": 695425500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2050861100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1252710800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logs in with valid credentials",
+            "match": {
+              "location": "LoginStepDefs.the_user_logs_in_with_valid_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5089224800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Account Activity page should have the title Zero – Account activity",
+            "match": {
+              "location": "AccountActivityStepDefs.account_Activity_page_should_have_the_title_Zero_Account_activity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53161600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should see the drop down default option as savings",
+            "match": {
+              "location": "AccountActivityStepDefs.the_user_should_see_the_drop_down_default_option_as_savings()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 255415700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Account drop down should have six options",
+            "match": {
+              "location": "AccountActivityStepDefs.account_drop_down_should_have_six_options()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110547600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user gets the transactions table headers",
+            "match": {
+              "location": "AccountActivityStepDefs.the_user_gets_the_transactions_table_headers()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "For the sub models of Account Activity",
+    "description": "",
+    "id": "for-the-sub-models-of-account-activity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountActivity.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-17T16:18:53.007Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10351813800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User can use account sumamry page",
+        "description": "",
+        "id": "user-can-use-the-account-summary-page-properly;user-can-use-account-sumamry-page",
+        "after": [
+          {
+            "result": {
+              "duration": 827280700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1643857200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1362800800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logs in with valid credentials",
+            "match": {
+              "location": "LoginStepDefs.the_user_logs_in_with_valid_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12527200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user gets the title of Account summary",
+            "match": {
+              "location": "AccountSummaryStepDefs.user_gets_the_title_of_Account_summary()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 197937600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user sees the account types",
+            "match": {
+              "location": "AccountSummaryStepDefs.user_sees_the_account_types()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195031400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user dets the credit accounts table",
+            "match": {
+              "location": "AccountSummaryStepDefs.user_dets_the_credit_accounts_table()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "User can use the account summary page properly",
+    "description": "",
+    "id": "user-can-use-the-account-summary-page-properly",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountSummary.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-17T16:19:07.621Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10688052300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login as an authorized user",
+        "description": "",
+        "id": "authorized-users-should-be-able-to-login;login-as-an-authorized-user",
+        "after": [
+          {
+            "result": {
+              "duration": 1685864100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1907658100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1478628200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user logs in with valid credentials",
+            "match": {
+              "location": "LoginStepDefs.the_user_logs_in_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3097351700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "account summary page should be displayed",
+            "match": {
+              "location": "LoginStepDefs.account_summary_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Authorized users should be able to login",
+    "description": "",
+    "id": "authorized-users-should-be-able-to-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-17T16:19:26.498Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10056878700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User can succesfully make a payment",
+        "description": "",
+        "id": "authorized-users-should-be-able-to-login;user-can-succesfully-make-a-payment",
+        "after": [
+          {
+            "result": {
+              "duration": 995583400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1632513400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1425965500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user logs in with valid credentials",
+            "match": {
+              "location": "LoginStepDefs.the_user_logs_in_with_valid_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 893473100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Paybills page should have the title Zero – Pay Bills",
+            "match": {
+              "location": "PayBillsStepDefs.paybills_page_should_have_the_title_Zero_Pay_Bills()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6984928300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user completes a  successful Pay operation",
+            "match": {
+              "location": "PayBillsStepDefs.user_completes_a_successful_Pay_operation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63782600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The payment was successfully submitted. should be  displayed.",
+            "match": {
+              "location": "PayBillsStepDefs.the_payment_was_successfully_submitted_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-17T16:19:48.577Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10020895500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User can not succesfully make a payment if the amount or date is absent",
+        "description": "",
+        "id": "authorized-users-should-be-able-to-login;user-can-not-succesfully-make-a-payment-if-the-amount-or-date-is-absent",
+        "after": [
+          {
+            "result": {
+              "duration": 858307400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1529189500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1513564100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user logs in with valid credentials",
+            "match": {
+              "location": "LoginStepDefs.the_user_logs_in_with_valid_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 688414000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Paybills page should have the title Zero – Pay Bills",
+            "match": {
+              "location": "PayBillsStepDefs.paybills_page_should_have_the_title_Zero_Pay_Bills()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6886142700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user completes a non successful Pay operation",
+            "match": {
+              "location": "PayBillsStepDefs.user_completes_a_non_successful_Pay_operation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87192100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "\"Please fill out this field.\" should be displayed.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill out this field.\"",
+                  "offset": 0
+                }
+              ],
+              "location": "PayBillsStepDefs.should_be_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-17T16:20:10.170Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10482196600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User can not succesfully make a payment if the amount or date is absent",
+        "description": "",
+        "id": "authorized-users-should-be-able-to-login;user-can-not-succesfully-make-a-payment-if-the-amount-or-date-is-absent",
+        "after": [
+          {
+            "result": {
+              "duration": 885187900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1739088900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1373086300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user logs in with valid credentials",
+            "match": {
+              "location": "LoginStepDefs.the_user_logs_in_with_valid_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 670483600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Paybills page should have the title Zero – Pay Bills",
+            "match": {
+              "location": "PayBillsStepDefs.paybills_page_should_have_the_title_Zero_Pay_Bills()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7228359900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user completes a  successful Pay operation",
+            "match": {
+              "location": "PayBillsStepDefs.user_completes_a_successful_Pay_operation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44318600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The payment was successfully submitted. should be  displayed.",
+            "match": {
+              "location": "PayBillsStepDefs.the_payment_was_successfully_submitted_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-17T16:20:32.607Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9589234200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Add a new payee",
+        "description": "",
+        "id": "authorized-users-should-be-able-to-login;add-a-new-payee",
+        "after": [
+          {
+            "result": {
+              "duration": 708535800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1645854000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1738101400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user logs in with valid credentials",
+            "match": {
+              "location": "LoginStepDefs.the_user_logs_in_with_valid_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5095412400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Add New Payee tab",
+            "match": {
+              "location": "PayBillsStepDefs.add_New_Payee_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4403195100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "creates new payee using following information",
+            "match": {
+              "location": "PayBillsStepDefs.creates_new_payee_using_following_information(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Payee Name",
+                  "The Law Offices of Hyde, Price \u0026 Scharks"
+                ]
+              },
+              {
+                "cells": [
+                  "Payee Address",
+                  "100 Same st, Anytown, USA, 10001"
+                ]
+              },
+              {
+                "cells": [
+                  "Account",
+                  "Checking"
+                ]
+              },
+              {
+                "cells": [
+                  "Payee details",
+                  "XYZ account"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1722794900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "message The new payee The Law Offices of Hyde, Price \u0026 Scharks was successfully created should be displayed",
+            "match": {
+              "location": "PayBillsStepDefs.message_The_new_payee_The_Law_Offices_of_Hyde_Price_Scharks_was_successfully_created_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Authorized users should be able to login",
+    "description": "",
+    "id": "authorized-users-should-be-able-to-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PayBills.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
