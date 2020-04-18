@@ -1,7 +1,7 @@
-@smoke
+
 Feature: Authorized users should be able to login
 
-
+  @smoke
   Scenario: User can succesfully make a payment
     Given the user is on the login page
     And the user logs in with valid credentials
@@ -9,6 +9,7 @@ Feature: Authorized users should be able to login
     When user completes a  successful Pay operation
     Then The payment was successfully submitted. should be  displayed.
 
+  @smoke
     Scenario: User can not succesfully make a payment if the amount or date is absent
     Given the user is on the login page
     And the user logs in with valid credentials
@@ -24,7 +25,7 @@ Feature: Authorized users should be able to login
     When user completes a  successful Pay operation
     Then The payment was successfully submitted. should be  displayed.
 
-
+  @smoke
   Scenario: Add a new payee
     Given the user is on the login page
     And the user logs in with valid credentials
